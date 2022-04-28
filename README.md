@@ -73,6 +73,6 @@ int main(void)
 ```
 ## Find out the Execution Time of following two programs 
 
-> under different num values (num =100, num =10000, num =1000000, num =100000000)
+> Use different num values (num =100, num =10000, num =1000000, num =100000000)
 -   [Bubble Sort](https://github.com/binooa/Performance-Evaluation/blob/main/BubbleSort.c)
 -   [Selection Sort](https://github.com/binooa/Performance-Evaluation/blob/main/SelectionSort.c)
