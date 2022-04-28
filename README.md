@@ -71,4 +71,6 @@ int main(void)
    return 0;
 }
 ```
-## Find out the Execution Time of following two programs under different num values (num =100, num =10000, num =1000000, num =100000000)   
+## Find out the Execution Time of following two programs 
+
+> under different num values (num =100, num =10000, num =1000000, num =100000000)
