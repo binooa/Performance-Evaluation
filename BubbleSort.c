@@ -17,6 +17,8 @@ int main(void)
    long *data;
    long num=1000, j;
    data = (long *)malloc(sizeof(long)*num);
+   
+    srand( (unsigned) time(NULL) * getpid());
     
     int x,y,temp;
 
