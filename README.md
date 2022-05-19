@@ -6,12 +6,15 @@ Performance Evaluation
 ```C
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
+
 int main()
 {
 
     long *data;
-    long num=100000, j;
+    long num=10, j;
     data = (long *)malloc(sizeof(long)*num);
+    srand( (unsigned) time(NULL) * getpid());
     if(data != NULL)
     {
         for(j = 0; j < num; j++)
@@ -53,7 +56,9 @@ int main(void)
    long *data;
    long num=100000000, j;
    data = (long *)malloc(sizeof(long)*num);
-
+   
+   srand( (unsigned) time(NULL) * getpid()); 
+   
    gettimeofday(&t0, NULL);
    if(data != NULL)
     {
